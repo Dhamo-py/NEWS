@@ -63,3 +63,8 @@ input:focus{
     display: flex;
     align-items: center;
 }
+
+button{
+    align-items: center;
+    justify-content: center;
+}
