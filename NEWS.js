@@ -37,7 +37,7 @@ const getNews = async() => {
         
     } catch (error) {
         var desc = document.getElementById("desc");
-        desc.innerHTML = "something went wrong";
+        
         
     }
 
