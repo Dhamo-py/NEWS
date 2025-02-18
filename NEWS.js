@@ -4,7 +4,7 @@ const getNews = async() => {
     document.getElementById("h1").style.display = "none";
     
     try {
-        const response = await axios.get("http://newsapi.org/v2/everything?q="+ word +"&from=2025-01-17&sortBy=publishedAt&apiKey=6c171fa58b324059827c3b5bdff44cfd");    
+        const response = await axios.get("https://newsapi.org/v2/everything?q="+ word +"&from=2025-01-17&sortBy=publishedAt&apiKey=6c171fa58b324059827c3b5bdff44cfd");    
         
         
         var body = document.getElementById("news-container");
